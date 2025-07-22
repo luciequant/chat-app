@@ -75,7 +75,7 @@ body {
   padding: 0.75rem;
   border: none;
   border-radius: 4px;
-  background-color: #4870df;
+  background-color: #9148dfff;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -84,7 +84,7 @@ body {
 }
 
 .auth-container form button:hover {
-  background-color: #3c559c;
+  background-color: #6209c2ff;
 }
 
 /* Error Text Styling */
@@ -104,7 +104,7 @@ body {
 .auth-container p button {
   background: none;
   border: none;
-  color: #4870df;
+  color: #9148dfff;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
@@ -149,7 +149,7 @@ body {
   text-align: center;
 }
 .loader-text {
-  color: #4870df;
+  color: #9148dfff;
   font-weight: bold;
 }
 .loader,
@@ -163,7 +163,7 @@ body {
 }
 .loader {
   margin: auto;
-  color: #4870df;
+  color: #9148dfff;
   font-size: 12px;
   position: relative;
   animation-delay: -0.16s;
@@ -222,7 +222,7 @@ body {
   margin-bottom: 1.5rem;
   padding: 0.5rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border-bottom: 2px solid rgba(72, 112, 223, 0.8);
+  border-bottom: 2px solid rgba(148, 72, 223, 0.8);
 }
 .conv-timeline {
   height: 400px; /* fixed height */
@@ -319,7 +319,7 @@ body {
   height: 40px;
   border: none;
   border-radius: 8px;
-  background-color: #4870df;
+  background-color: #9148dfff;
   color: white;
   display: flex;
   align-items: center;
@@ -328,7 +328,7 @@ body {
   transition: background-color 0.3s ease;
 }
 .conv-button:hover {
-  background-color: #3c559c;
+  background-color: #6209c2ff;
 }
 
 /* ---------- Optional: Error Text ---------- */
