@@ -140,7 +140,7 @@ body {
   font-size: 16px;
 }
 .navbar ul li a:hover {
-  text-decoration: none;
+  color: #9148dfff;
 }
 
 /* Loader Styles */
@@ -374,7 +374,7 @@ body {
   display: block; /* makes the link a block-level element */
   margin: 0; /* removes any extra margin */
   padding: 0.75rem 1rem; /* internal spacing */
-  background-color: #4870df; /* base button background color */
+  background-color: #9148dfff; /* base button background color */
   color: white; /* button text color */
   text-align: center; /* center the text */
   text-decoration: none; /* remove default underline */
@@ -385,7 +385,7 @@ body {
 
 /* Hover effect for the room buttons */
 .room-list ul li a:hover {
-  background-color: #3c559c; /* darker shade on hover */
+  background-color: #6209c2ff; /* darker shade on hover */
 }
 
 /* Create Room Page */
@@ -432,7 +432,7 @@ body {
 
 .create-room form button {
   padding: 0.75rem;
-  background-color: #4870df;
+  background-color: #9148dfff;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -442,7 +442,7 @@ body {
 }
 
 .create-room form button:hover {
-  background-color: #3c559c;
+  background-color: #6209c2ff;
 }
 
 /* Logout Button (used in ChatRoom page) */
@@ -453,6 +453,10 @@ body {
   font-size: 12px;
   cursor: pointer;
   float: right;
+}
+
+.logout-button:hover {
+  color: #ab5cffff;
 }
 
 /* Error Text */
